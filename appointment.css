@@ -1,0 +1,30 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.formContainer > div {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.select-form {
+  height: 40px;
+  width: max-content;
+}
+.soltButt {
+  margin-top: 10px;
+  height: 40px;
+  width: max-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  background-color: #0168ce;
+  border-radius: 2px;
+}
+.soltButt:hover {
+  text-decoration: none;
+  border: none;
+}
